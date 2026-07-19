@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&family=Tenor+Sans&display=swap');
+* {
+    margin:0;
+}
+body{
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    color: #8A3039;
+    background-color: #EAEAEA;
+}
+header{
+    background-color: #F9F6F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    padding: 0 5%;
+}
+header>nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.banner{
+    padding: 10% 5%;
+    color: #8A3039;
+    font-size: 30px;
+}
+.links{
+    color: #F9F6F2;
+}
+p{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    color: #141B25;
+    font-size: 25px;
+}
+a{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    color: #141B25;
+    text-decoration: none;
+    font-size: 25px;
+}
+div{
+    width: 10%;
+}
+.options>div{
+    color: white;
+    display: inline-block;
+    margin: 4% 6%;
+}
+article>div{
+    padding: 10px 5%;
+    margin: 20px -10px;
+    background-color: #8B3037;
+    text-align: center;
+    border: 1px solid #8B3037;
+    border-radius: 4.15px;
+}
+.menu{
+    padding: 1% 42%;
+    font-size: 60px;
+}
+.menuframes{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+}
+footer{
+    background-color: #F9F6F2;
+    color: #8A3039;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    padding: 0 1%;
+}
+footer>p{
+    text-align: left;
+    margin: 0% 10%;
+}
+footer>nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
