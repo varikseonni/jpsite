@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&family=Tenor+Sans&display=swap');
+* {
+    margin:0;
+}
+body{
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    color: #8A3039;
+    background-color: #EAEAEA;
+}
+header{
+    background-color: #F9F6F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    padding: 0 5%;
+}
+header>nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.colors1:hover{
+    color:#8A3039
+}
+.colors2:active{
+    color: #141B25
+}
+.banner{
+    padding: 10% 5%;
+    color: #8A3039;
+    font-size: 30px;
+}
+.links{
+    color: #F9F6F2;
+}
+p{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    color: #141B25;
+    font-size: 25px;
+}
+a{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    color: #141B25;
+    text-decoration: none;
+    font-size: 25px;
+}
+div{
+    width: 10%;
+}
+.options>div{
+    color: white;
+    display: inline-block;
+    margin: 4% 6%;
+}
+article>div{
+    padding: 10px 5%;
+    margin: 20px -10px;
+    background-color: #8B3037;
+    text-align: center;
+    border: 1px solid #8B3037;
+    border-radius: 4.15px;
+}
+.menu{
+    padding: 1% 42%;
+    font-size: 60px;
+}
+.menuframes{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+}
+.menuframes>a>img{
+    border-radius: 4.15px;
+}
+.frame1:hover{
+    animation: anim1 1.5s infinite linear;
+}
+.frame2:hover{
+    animation: anim2 1.5s infinite linear;
+}
+.frame3:hover{
+    animation: anim3 1.5s infinite linear;
+}
+.frame4:hover{
+    animation: anim4 1.5s infinite linear;
+}
+.frame5:hover{
+    animation: anim5 1.5s infinite linear;
+}
+footer{
+    background-color: #F9F6F2;
+    color: #8A3039;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 1%;
+}
+footer>p{
+    text-align: left;
+    margin: 0% 10%;
+}
+footer>nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+@keyframes anim1{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(0px, -45px);
+    }
+}
+@keyframes anim2{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(0px, -45px);
+    }
+}
+@keyframes anim3{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(0px, -45px);
+    }
+}
+@keyframes anim4{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(0px, -45px);
+    }
+}
+@keyframes anim5{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(0px, -45px);
+    }
+}
