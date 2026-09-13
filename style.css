@@ -59,7 +59,12 @@ div{
 .options>div{
     color: white;
     display: inline-block;
-    margin: 4% 6%;
+    margin: 2% 2%;
+}
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 article>div{
     padding: 10px 5%;
@@ -153,4 +158,26 @@ footer>nav{
     100%{
         transform: translate(0px, -45px);
     }
+}
+@media (max-width: 1500px){
+    .menuframes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner>*{
+        margin: 0 10px;
+        font-size: 20px;
+    }
+    .banner>div{
+        padding: 10px 5%;
+    }
+    body{
+        object-fit: contain;
+    }
+}
+@media (max-width: 1400px){
+    div{
+        width: 20%;
+    }
+    
 }
